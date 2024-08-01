@@ -1,0 +1,291 @@
+com.example.demo.Application-[INFO]- 2024-08-01 16:56:56,846-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 16:56:56,848-No active profile set, falling back to default profiles: default-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-08-01 16:56:56,948-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable-
+org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-[INFO]- 2024-08-01 16:56:56,948-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 16:56:58,136-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 16:56:58,207-Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 16:56:58,918-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 16:56:58,927-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 16:56:58,927-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 16:56:59,011-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 16:56:59,011-Root WebApplicationContext: initialization completed in 2063 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 16:56:59,263-HHH000204: Processing PersistenceUnitInfo [name: default]-
+org.hibernate.Version-[INFO]- 2024-08-01 16:56:59,293-HHH000412: Hibernate ORM core version 5.4.32.Final-
+org.hibernate.annotations.common.Version-[INFO]- 2024-08-01 16:56:59,387-HCANN000001: Hibernate Commons Annotations {5.1.2.Final}-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 16:56:59,457-HikariPool-1 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 16:56:59,827-HikariPool-1 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 16:56:59,841-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 16:57:00,479-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 16:57:00,489-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 16:57:01,143-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 16:57:01,358-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 16:57:01,437-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 16:57:01,569-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 16:57:02,409-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 16:57:02,411-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 16:57:02,429-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 16:57:02,462-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 16:57:02,608-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 16:57:02,671-Started Application in 6.192 seconds (JVM running for 6.87)-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 16:58:04,211-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 16:58:04,213-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 16:58:04,216-Completed initialization in 3 ms-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:00:53,102-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:00:53,108-HikariPool-1 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:00:53,115-HikariPool-1 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:00:53,430-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:00:53,432-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:00:53,845-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:00:53,859-Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:00:54,026-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:00:54,028-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:00:54,028-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:00:54,035-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:00:54,035-Root WebApplicationContext: initialization completed in 594 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:00:54,093-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:00:54,101-HikariPool-2 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:00:54,144-HikariPool-2 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:00:54,144-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:00:54,237-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:00:54,240-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:00:54,554-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:00:54,637-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:00:54,666-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:00:54,715-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:00:55,114-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:00:55,116-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:00:55,118-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:00:55,149-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:00:55,198-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:00:55,234-Started Application in 1.899 seconds (JVM running for 239.439)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:00:55,243-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:04:03,750-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:04:03,766-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:04:03,770-Completed initialization in 4 ms-
+com.example.demo.service.ProductService-[INFO]- 2024-08-01 17:18:13,167-Fetching all records...-
+org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver-[WARN]- 2024-08-01 17:18:31,784-Resolved [com.example.demo.exception.ResourceNotFoundException: Product not found for this id :: 11000]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:26:31,221-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:26:31,225-HikariPool-2 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:26:31,251-HikariPool-2 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:26:31,663-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:26:31,664-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:26:31,981-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:26:31,993-Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:26:32,134-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:26:32,136-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:26:32,136-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:26:32,143-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:26:32,145-Root WebApplicationContext: initialization completed in 474 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:26:32,208-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:26:32,214-HikariPool-3 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:26:32,263-HikariPool-3 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:26:32,264-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:26:32,392-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:26:32,393-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:26:32,653-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:26:32,747-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:26:32,771-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:26:32,833-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:26:33,174-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:26:33,176-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:26:33,178-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:26:33,203-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:26:33,291-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:26:33,361-Started Application in 1.782 seconds (JVM running for 1777.589)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:26:33,364-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:27:47,853-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:27:47,857-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:27:47,870-Completed initialization in 12 ms-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:29:06,995-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:07,010-HikariPool-3 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:07,038-HikariPool-3 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:07,452-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:07,454-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:29:07,777-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:29:07,790-Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:29:07,964-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:29:07,967-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:29:07,967-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:29:07,977-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:29:07,978-Root WebApplicationContext: initialization completed in 509 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:29:08,039-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:08,043-HikariPool-4 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:08,079-HikariPool-4 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:29:08,079-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:29:08,224-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:29:08,224-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:29:08,444-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:29:08,544-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:29:08,590-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:29:08,641-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:29:08,909-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:29:08,912-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:29:08,915-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:29:08,936-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:29:08,998-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:09,028-Started Application in 1.671 seconds (JVM running for 1933.259)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:29:09,030-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:29:29,667-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:29:29,672-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:29:29,679-Completed initialization in 7 ms-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:29:47,700-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:47,708-HikariPool-4 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:47,730-HikariPool-4 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:48,139-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:48,141-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:29:48,475-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:29:48,488-Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:29:48,612-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:29:48,614-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:29:48,615-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:29:48,622-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:29:48,622-Root WebApplicationContext: initialization completed in 471 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:29:48,675-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:48,680-HikariPool-5 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:48,713-HikariPool-5 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:29:48,713-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:29:48,788-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:29:48,789-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:29:48,989-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:29:49,095-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:29:49,115-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:29:49,161-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:29:49,448-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:29:49,451-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:29:49,453-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:29:49,482-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:29:49,546-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:49,575-Started Application in 1.524 seconds (JVM running for 1973.807)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:29:49,577-Condition evaluation unchanged-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:29:51,884-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:51,885-HikariPool-5 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:51,923-HikariPool-5 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:52,493-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:52,499-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:29:52,844-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:29:52,859-Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:29:52,977-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:29:52,979-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:29:52,979-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:29:52,986-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:29:52,986-Root WebApplicationContext: initialization completed in 464 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:29:53,043-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:53,049-HikariPool-6 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:29:53,081-HikariPool-6 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:29:53,082-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:29:53,168-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:29:53,172-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:29:53,432-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:29:53,630-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:29:53,665-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:29:53,749-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:29:53,916-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:29:53,918-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:29:53,920-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:29:53,939-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:29:53,995-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:29:54,023-Started Application in 1.719 seconds (JVM running for 1978.256)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:29:54,026-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:29:56,722-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:29:56,743-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:29:56,746-Completed initialization in 1 ms-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:30:22,611-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:22,616-HikariPool-6 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:22,641-HikariPool-6 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:30:22,962-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:30:22,967-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:30:23,231-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:30:23,242-Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:30:23,346-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:30:23,348-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:30:23,348-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:30:23,353-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:30:23,353-Root WebApplicationContext: initialization completed in 376 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:30:23,407-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:23,411-HikariPool-7 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:23,464-HikariPool-7 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:30:23,464-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:30:23,555-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:30:23,556-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:30:23,676-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:30:23,727-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:30:23,744-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:30:23,781-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:30:23,932-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:30:23,933-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:30:23,934-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:30:23,959-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:30:24,008-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:30:24,035-Started Application in 1.152 seconds (JVM running for 2008.268)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:30:24,037-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:30:28,432-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:30:28,442-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:30:28,452-Completed initialization in 8 ms-
+com.example.demo.service.ProductService-[INFO]- 2024-08-01 17:30:28,469-Fetching all records...-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:30:34,461-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:34,467-HikariPool-7 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:34,489-HikariPool-7 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:30:34,797-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:30:34,800-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:30:35,089-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:30:35,097-Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:30:35,227-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:30:35,230-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:30:35,230-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:30:35,235-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:30:35,235-Root WebApplicationContext: initialization completed in 427 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:30:35,287-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:35,291-HikariPool-8 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:30:35,328-HikariPool-8 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:30:35,328-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:30:35,408-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:30:35,408-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:30:35,533-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:30:35,588-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:30:35,612-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:30:35,652-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:30:35,783-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:30:35,790-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:30:35,795-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:30:35,814-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:30:35,856-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:30:35,887-Started Application in 1.18 seconds (JVM running for 2020.12)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:30:35,889-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:30:43,082-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:30:43,091-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:30:43,098-Completed initialization in 4 ms-
+com.example.demo.service.ProductService-[INFO]- 2024-08-01 17:30:43,117-Fetching all records...-
+com.example.demo.service.ProductService-[INFO]- 2024-08-01 17:30:46,012-Fetching all records...-
+com.example.demo.service.ProductService-[INFO]- 2024-08-01 17:31:07,221-Fetching all records...-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:31:17,607-Closing JPA EntityManagerFactory for persistence unit 'default'-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:31:17,610-HikariPool-8 - Shutdown initiated...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:31:17,632-HikariPool-8 - Shutdown completed.-
+com.example.demo.Application-[INFO]- 2024-08-01 17:31:17,970-Starting Application using Java 1.8.0_251 on Ashus-MacBook-Air.local with PID 11323 (/Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4/target/classes started by ashujauhari in /Users/ashujauhari/pptx/Microservices-2023/Microservice-STS-Code-workspace/ 09B-swagger-spring-rest-product-delete-data-with-GlobalException4)-
+com.example.demo.Application-[INFO]- 2024-08-01 17:31:17,972-No active profile set, falling back to default profiles: default-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:31:18,219-Bootstrapping Spring Data JPA repositories in DEFAULT mode.-
+org.springframework.data.repository.config.RepositoryConfigurationDelegate-[INFO]- 2024-08-01 17:31:18,227-Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:31:18,331-Tomcat initialized with port(s): 9090 (http)-
+org.apache.catalina.core.StandardService-[INFO]- 2024-08-01 17:31:18,334-Starting service [Tomcat]-
+org.apache.catalina.core.StandardEngine-[INFO]- 2024-08-01 17:31:18,334-Starting Servlet engine: [Apache Tomcat/9.0.53]-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:31:18,338-Initializing Spring embedded WebApplicationContext-
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-[INFO]- 2024-08-01 17:31:18,338-Root WebApplicationContext: initialization completed in 357 ms-
+org.hibernate.jpa.internal.util.LogHelper-[INFO]- 2024-08-01 17:31:18,391-HHH000204: Processing PersistenceUnitInfo [name: default]-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:31:18,394-HikariPool-9 - Starting...-
+com.zaxxer.hikari.HikariDataSource-[INFO]- 2024-08-01 17:31:18,430-HikariPool-9 - Start completed.-
+org.hibernate.dialect.Dialect-[INFO]- 2024-08-01 17:31:18,431-HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect-
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator-[INFO]- 2024-08-01 17:31:18,503-HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]-
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean-[INFO]- 2024-08-01 17:31:18,503-Initialized JPA EntityManagerFactory for persistence unit 'default'-
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration-[WARN]- 2024-08-01 17:31:18,611-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning-
+org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-[INFO]- 2024-08-01 17:31:18,667-Exposing 1 endpoint(s) beneath base path '/actuator'-
+springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping-[INFO]- 2024-08-01 17:31:18,681-Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]-
+org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-[WARN]- 2024-08-01 17:31:18,722-Unable to start LiveReload server-
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer-[INFO]- 2024-08-01 17:31:18,842-Tomcat started on port(s): 9090 (http) with context path ''-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:31:18,842-Context refreshed-
+springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper-[INFO]- 2024-08-01 17:31:18,843-Found 1 custom documentation plugin(s)-
+springfox.documentation.spring.web.scanners.ApiListingReferenceScanner-[INFO]- 2024-08-01 17:31:18,870-Scanning for api listing references-
+springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator-[INFO]- 2024-08-01 17:31:18,908-Generating unique operation named: handleUsingGET_1-
+com.example.demo.Application-[INFO]- 2024-08-01 17:31:18,939-Started Application in 1.047 seconds (JVM running for 2063.173)-
+org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-[INFO]- 2024-08-01 17:31:18,940-Condition evaluation unchanged-
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-[INFO]- 2024-08-01 17:32:25,022-Initializing Spring DispatcherServlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:32:25,033-Initializing Servlet 'dispatcherServlet'-
+org.springframework.web.servlet.DispatcherServlet-[INFO]- 2024-08-01 17:32:25,053-Completed initialization in 16 ms-
